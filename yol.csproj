@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <ApplicationIcon>yo\icon.ico</ApplicationIcon>
     <AssemblyKeyContainerName>
     </AssemblyKeyContainerName>
     <AssemblyName>Yol</AssemblyName>
@@ -77,55 +77,55 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="About.cs">
+    <Compile Include="yo\About.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="About.Designer.cs">
+    <Compile Include="yo\About.Designer.cs">
       <DependentUpon>About.cs</DependentUpon>
     </Compile>
-    <Compile Include="Commons.cs">
+    <Compile Include="yo\Commons.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DialogEnc.cs">
+    <Compile Include="yo\DialogEnc.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="FileProp.cs">
+    <Compile Include="yo\FileProp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FileProp.Designer.cs">
+    <Compile Include="yo\FileProp.Designer.cs">
       <DependentUpon>FileProp.cs</DependentUpon>
     </Compile>
-    <Compile Include="Input.cs">
+    <Compile Include="yo\Input.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Input.Designer.cs">
+    <Compile Include="yo\Input.Designer.cs">
       <DependentUpon>Input.cs</DependentUpon>
     </Compile>
-    <Compile Include="Main.cs">
+    <Compile Include="yo\Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main.Designer.cs">
+    <Compile Include="yo\Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
-    <Compile Include="MyLists.cs">
+    <Compile Include="yo\MyLists.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="OptionsPage.cs">
+    <Compile Include="yo\OptionsPage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OptionsPage.Designer.cs">
+    <Compile Include="yo\OptionsPage.Designer.cs">
       <DependentUpon>OptionsPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="yol.cs">
+    <Compile Include="yo\yol.cs">
       <SubType>Code</SubType>
     </Compile>
-    <EmbeddedResource Include="About.resx">
+    <EmbeddedResource Include="yo\About.resx">
       <DependentUpon>About.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Main.resx">
+    <EmbeddedResource Include="yo\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OptionsPage.resx">
+    <EmbeddedResource Include="yo\OptionsPage.resx">
       <DependentUpon>OptionsPage.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
@@ -137,7 +137,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="icon.ico" />
+    <Content Include="yo\icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
